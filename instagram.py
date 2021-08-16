@@ -55,7 +55,7 @@ class Instagram(TorManager,Browser):
 					f.write('[-] Username: {}\n[-] Password: {}\n\n'.\
 					format(self.username,msg))
 
-			    if all([not self.is Found, msg]):
+			    if all([not self.isFound, msg]):
 			    	print ('\n [-] {}'.format(msg))
 			    finally:exit()
 
