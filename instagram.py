@@ -47,7 +47,7 @@ class Instagram(TorManager,Browser):
 		self.alive = False
 		self.stopTor()
 		try:
-			if self.is Found:
+			if self.isFound:
 				self.display(msg)
 				print (' [-] Password Found!')
 
